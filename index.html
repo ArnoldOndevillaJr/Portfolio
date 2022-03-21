@@ -18,12 +18,12 @@
     grid-gap: 20px;
     height: auto;
     width: 100%;
-    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
 
 }
 	.skills-child .skill-type {
     height: 100%;
-    padding: 4vh;
+    padding: 4vh 0px;
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: 1fr 1fr;
@@ -41,7 +41,7 @@
 .skills-child .skill-type-tech {
     height: 100%;
     width: 100%;
-    padding: 4vh;
+	padding: 4vh 0px;
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     justify-items: center;
@@ -72,10 +72,12 @@
     margin-bottom: 1;
     font-weight: bold;
     text-align: right;
+    width: 95%;
 }
 .skills-child .skill-type > div.progress {
     height: .75rem;
     margin-left: 10px;
+    width: 90%;
 }
 .skills-child .skill-type > div.progress > .progress-bar {
     height: .75rem;
@@ -87,6 +89,9 @@
     font-size: 1em;
     margin-bottom: 0em !important;
     margin-left: 10px;
+}
+footer.section.is-small {
+    padding: 2rem 1.5rem 2rem !important;
 }
 </style>
     <link rel="stylesheet" href="./assets/main.css">
